@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'LYJUtils_Example' do
+  pod 'LYJUtils', :path => '../'
+
+  target 'LYJUtils_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
