@@ -1,0 +1,22 @@
+{
+  "name": "LYJUtils",
+  "version": "0.1.0",
+  "summary": "A short description of LYJUtils.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Vinci/LYJUtils",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Vinci": "kafka673@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/Vinci/LYJUtils.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "LYJUtils/Classes/**/*"
+}

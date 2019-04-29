@@ -39,9 +39,9 @@
 /* Begin PBXFileReference section */
 		0847B4C4F75F1168A05CF48B /* Pods-LYJUtils_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LYJUtils_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-LYJUtils_Example/Pods-LYJUtils_Example.release.xcconfig"; sourceTree = "<group>"; };
 		11529521314416EA193FD752 /* Pods-LYJUtils_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LYJUtils_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LYJUtils_Tests/Pods-LYJUtils_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		12A8EC8F381F7D024481A063 /* LYJUtils.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = LYJUtils.podspec; path = ../LYJUtils.podspec; sourceTree = "<group>"; };
+		12A8EC8F381F7D024481A063 /* LYJUtils.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LYJUtils.podspec; path = ../LYJUtils.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		1C63186ECEAB1F6E44EF1E10 /* Pods_LYJUtils_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LYJUtils_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		33B58389AABCA51799E077FD /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		33B58389AABCA51799E077FD /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		54DE4D2D5F4C596AAD91B476 /* Pods_LYJUtils_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LYJUtils_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58A195388D20070C39A /* LYJUtils_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LYJUtils_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -62,7 +62,7 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		672938DAFA27C8438CDCCD33 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		672938DAFA27C8438CDCCD33 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AD50C38CD367DFE39FF8DE83 /* Pods-LYJUtils_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LYJUtils_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LYJUtils_Tests/Pods-LYJUtils_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -257,6 +257,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

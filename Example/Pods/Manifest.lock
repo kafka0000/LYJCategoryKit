@@ -1,0 +1,16 @@
+PODS:
+  - LYJUtils (0.1.0)
+
+DEPENDENCIES:
+  - LYJUtils (from `../`)
+
+EXTERNAL SOURCES:
+  LYJUtils:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  LYJUtils: 9d0c89aba30e5757510446b302e900bfad3e511b
+
+PODFILE CHECKSUM: 2f9f70a47e1c934fe9671dd8ade6b809d8388a2a
+
+COCOAPODS: 1.5.2
